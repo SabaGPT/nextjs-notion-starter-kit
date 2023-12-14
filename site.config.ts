@@ -20,8 +20,6 @@ export default siteConfig({
   twitter: null, // Remove other social accounts if not needed
   github: null,
   linkedin: null,
-  // Add your WeChat ID
-  wechat: 'De_Saba',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
