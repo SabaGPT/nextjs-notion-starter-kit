@@ -1,28 +1,28 @@
-import { siteConfig } from './lib/site-config'
+import { siteConfig } from './lib/site-config' 
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '3ab1378bc2fe42368456a7187c63ac5e', 
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
-  // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  // basic site info (required) 
+  name: 'AI Canvas', 
+  domain: 'www.aicanvas.top', 
+  author: 'SabaGPT', 
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'The Art & Science of Creative Generation', 
 
-  // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
+  // social usernames (optional) 
+  twitter: '#', 
+  github: '#', 
+  linkedin: '#', 
+  // mastodon: '#', // optional mastodon profile URL, provides link verification 
   // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` 
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -38,7 +38,7 @@ export default siteConfig({
   // environment variables. see the readme for more info
   isRedisEnabled: false,
 
-  // map of notion page IDs to URL paths (optional)
+  // map of notion page IDs to URL paths (optional) 
   // any pages defined here will override their default URL paths
   // example:
   //
@@ -48,14 +48,14 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  // whether to use the default notion navigation style or a custom one with links to
-  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
+  // whether to use the default notion navigation style or a custom one with links to 
+  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`. 
   navigationStyle: 'default'
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {
   //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a' 
   //   },
   //   {
   //     title: 'Contact',
